@@ -1,0 +1,17 @@
+{
+	"name": "'stache",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "Stash tabs away for later recovery",
+    "icons": {
+        "16": "mustache-16.png",
+        "48": "mustache-48.png",
+        "128": "mustache-128.png"
+    },
+    "browser_action": {
+        "default_icon": "mustache-19.png",
+        "default_popup": "popup.html",
+        "default_title": "'stache"
+    },
+    "permissions": ["tabs"]
+}

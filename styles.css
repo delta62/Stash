@@ -1,0 +1,56 @@
+body {
+    font-family: arial, sans-serif;
+    line-height: 16px;
+    width: 250px;
+}
+
+input {
+    width: 100%;
+}
+
+h4 {
+    margin: .5em;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    color: #333;
+    margin: .2em 0;
+    line-height: 18px;
+    text-align: left;
+    width: 100%;
+}
+
+tbody > tr {
+    border-top: 1px dashed #AAA;
+    font-size: 14px;
+}
+
+tr.zebra {
+    background-color: #F7F7F7;
+}
+
+tbody > tr:last-child {
+    border-bottom: 1px dashed #AAA;
+}
+
+td {
+    width: 20px;
+}
+
+td:first-child {
+    width: auto;
+}
+
+span {
+    cursor: pointer;
+}
+
+a:hover, span:hover {
+    color: #D33;
+}
+
+a {
+    color: #333;
+}
