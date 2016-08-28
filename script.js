@@ -2,7 +2,7 @@ function addStash(name) {
     chrome.windows.get(chrome.windows.WINDOW_ID_CURRENT, {populate: true}, function(window) {
 
             /*
-             * Save in the same format loading is done in. This reduces stash 
+             * Save in the same format loading is done in. This reduces stash
              * size.
              */
             var windowObj = {
@@ -26,7 +26,7 @@ function addStash(name) {
 
 function loadStash(name) {
     chrome.windows.getCurrent({populate: true}, function(window) {
-        if (window.tabs.length == 1 && 
+        if (window.tabs.length == 1 &&
             window.tabs[0].url == "chrome://newtab/") {
                 // Restore the tabs in the current window
                 var restoreObj = JSON.parse(localStorage.getItem(name));
